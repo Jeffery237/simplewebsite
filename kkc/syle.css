@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ .btn1{background: orange;
+ 	color: black;
+ 	text-align: right;
+    font-size: 16px;
+    margin:4px 2px ;
+ 	cursor: pointer;
+    position: right;
+ }
+
+.btn2{background: purple;
+ 	color: black;
+ 	text-align: right;
+    font-size: 16px;
+    margin:4px 2px ;
+    cursor: pointer;
+    position: right;
+ 
+ }
+ .btn3{background: red;
+ 	color: black;
+ 	text-align: right;
+    font-size: 16px;
+    margin:4px 2px ;
+    cursor: pointer;
+    position: right;
+ }
+ .img{
+    width: 100%;
+    border-radius: 7px;
+ }
+ .footer{
+    box-shadow: blue;
+    border-radius:5% ;
+ }

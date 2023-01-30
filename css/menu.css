@@ -1,0 +1,113 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: black;
+        color: white;
+    }
+    
+    body {
+        font-family: cursive;
+    }
+    
+    img {
+        width: 100px;
+    }
+    
+    .main {
+        width: 1170px;
+        margin: 100px auto;
+    }
+    
+    .section-title {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    
+    .section title h2 {
+        text-transform: capitalize;
+        font-size: 36px;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .menus {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .menu-column {
+        width: 32%;
+    }
+    
+    .menu-column h4 {
+        text-transform: capitalize;
+        font-size: 25px;
+        font-weight: 500;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #111;
+    }
+    
+    .single-menu {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .single-menu img {
+        border-radius: 10%;
+        max-width: 110px;
+        border: 1px #111;
+        padding: 3px;
+        margin-right: 15px;
+    }
+    
+    h5 {
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    h5 span {
+        color: green;
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width:1200px) {
+        .main {
+            width: 970px;
+        }
+    }
+    
+    @media only screen and (min-width: 992px) and (max-width:1200px) {
+        .main {
+            width: 750px;
+        }
+        .single-menu {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+        .single-menu img {
+            margin-bottom: 35px;
+        }
+    }
+    
+    @media only screen and (max-width:767px) {
+        .main {
+            width: 320px;
+        }
+        .menu-column {
+            width: 100%;
+            margin-bottom: 60px;
+        }
+        .single-menu {
+            flex-direction: column;
+        }
+        .single-menu img {
+            margin-bottom: 35px;
+        }
+    }
